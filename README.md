@@ -126,8 +126,9 @@ In dem node_modules Verzeichnis werden alle Abhängigkeiten des Projekts gespeic
 ## Anforderungen
 
 - Das Programm soll in der Lage sein, Dateien in einem Verzeichnis zu lesen.
-- Das Programm soll in der Lage sein, Dateien in einem Verzeichnis zu kopieren.
+- Das Programm soll in der Lage sein, Dateien in ein Verzeichnis zu kopieren.
 - Die Unterordner sollen nach dem Dateityp benannt sein.
+- Die Dateien sollen in die entsprechenden Unterordner kopiert werden.
 
 ## Optionale Anforderungen
 

@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "node ./dist/index.js"
+    "start": "node ./dist/index.js",
+    "dev": "npm run build && npm run start"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Lucas-Bur/node-dateisortierer/issues"
   },
-  "homepage": "https://github.com/Lucas-Bur/node-dateisortierer#readme"
+  "homepage": "https://github.com/Lucas-Bur/node-dateisortierer#readme",
+  "devDependencies": {
+    "@types/node": "^20.12.4"
+  }
 }
