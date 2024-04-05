@@ -36,7 +36,7 @@ Das soll ganz im Sinne des Projektes sein, also nach Dateityp sortiert.
 Finde zuerst heraus, welche Funktionen du benötigst, um die Dateiendung einer Datei zu ermitteln.
 Finde danach heraus, wie du eine Datei in einen anderen Ordner kopieren kannst.
 
-## (Zusatz) Aufgabe 4: Zufällige Elemente aus einer Liste
+## (Zusatz) Aufgabe 4: Zufällige Elemente aus einer Liste (30 Punkte)
 
 Gegeben ist eine Liste von Elementen. Schreibe eine Funktion, die ein zufälliges Element aus der Liste zurückgibt.
 Erkundige dich selbstständig, wie du die Bibliothek `Math` oder `crypto` verwenden kannst, um zufällige Zahlen zu generieren.
