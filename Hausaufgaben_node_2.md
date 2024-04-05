@@ -1,6 +1,6 @@
 # Hausaufgabe
 
-## Aufgabe 1: Theorie (10 Punkte je Frage -> 40 Punkte)
+## Aufgabe 1: Theorie (10 Punkte je Frage -> 40 Punkte + 10 Zusatzpunkte)
 
 1. Wofür ist die package.json Datei zuständig?
 2. Was ist der Unterschied zwischen `dependencies` und `devDependencies` in der package.json Datei?
