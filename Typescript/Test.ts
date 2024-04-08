@@ -1,14 +1,14 @@
 import * as fs from 'fs';
 
-function createDirs(folderPath: string, folderNames: string[]): void {
-    // Überprüfe, ob der Basisordner existiert, falls nicht, erstelle ihn
+function Ordner(folderPath: string, folderNames: string[]): void {
+    // Check Root Ordner vorhanden
     if (!fs.existsSync(folderPath)) {
         fs.mkdirSync(folderPath, { recursive: true });
     }
 
     folderNames.forEach(folderName => {
         const fullPath = `${folderPath}/${folderName}`;
-        // Überprüfe, ob der Ordner bereits existiert, bevor er erstellt wird
+        // Check ob Ornder schon vorhanden
         if (!fs.existsSync(fullPath)) {
             try {
                 fs.mkdirSync(fullPath);
